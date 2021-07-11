@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IstEpTwoInvestigate">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".IstEpOneQuestioning">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/sunset_background" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="207dp"
+            android:layout_height="275dp"
+            android:layout_marginEnd="24dp"
+            android:background="#FFFFFF"
+            android:text="Nereyi incelesem?"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageView8"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.117" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="217dp"
+            android:layout_height="46dp"
+            android:background="#FFFFFF"
+            android:text="Mekanlar"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.465"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.043" />
+
+        <Button
+            android:id="@+id/isE2I2"
+            android:layout_width="225dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="172dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Odaları incele"
+            app:layout_constraintEnd_toEndOf="@+id/imageView8"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/isE2I5"
+            android:layout_width="225dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="172dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Twitter"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/imageView8"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/isE2I12"
+            android:layout_width="225dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="172dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Button"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/imageView8"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/isE2I22"
+            android:layout_width="225dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="172dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Button"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/imageView8"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/isE2I232"
+            android:layout_width="225dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="172dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Button"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/imageView8"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/isE2I32"
+            android:layout_width="225dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="172dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Kapının Önünü İncele"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/imageView8"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/isE2I332"
+            android:layout_width="225dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="172dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Button"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/imageView8"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/isE2I1"
+            android:layout_width="225dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="64dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Salonu incele"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/isE2I4"
+            android:layout_width="225dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="64dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Linkedin"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/isE2I11"
+            android:layout_width="225dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="64dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Button"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/isE2I21"
+            android:layout_width="225dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="64dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Button"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/isE2I231"
+            android:layout_width="225dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="64dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Button"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/isE2I31"
+            android:layout_width="225dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="64dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Kamera kayıtlarını iste"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/isE2I331"
+            android:layout_width="225dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="64dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Button"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/isE2I3"
+            android:layout_width="225dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="268dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Evin dışını incele"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/isE2I13"
+            android:layout_width="225dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="268dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Button"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/isE2I23"
+            android:layout_width="225dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="268dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Button"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/isE2I233"
+            android:layout_width="225dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="268dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Button"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/isE2I33"
+            android:layout_width="225dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="268dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Apartmandakilerle Konuş"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/isE2I333"
+            android:layout_width="225dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="268dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Button"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/isE2I6"
+            android:layout_width="225dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="268dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Telefon Mesajları"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button43"
+            android:layout_width="152dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="296dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:onClick="toBack"
+            android:text="Geri"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.919"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="168dp"
+            android:layout_height="292dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button48"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Villa/Olay yeri" />
+
+                <Button
+                    android:id="@+id/button49"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Temizlikçinin Evi" />
+
+                <Button
+                    android:id="@+id/button61"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Kardeşinin Evi" />
+
+                <Button
+                    android:id="@+id/button62"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Komşu Villa" />
+
+                <Button
+                    android:id="@+id/button64"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Metresinin evi" />
+
+                <Button
+                    android:id="@+id/button66"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Sosyal Medya" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="164dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#FFFFFF"
+            android:text="Mekanlar"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

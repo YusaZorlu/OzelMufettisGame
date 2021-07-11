@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IstEpTwoBlame">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".IstEpOneBlame">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/sunset_background" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="135dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="16dp"
+            android:background="#FFFFFF"
+            android:text="Suçlu"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/imageView11" />
+
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="135dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="16dp"
+            android:background="#FFFFFF"
+            android:text="Suç silahı"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/sc9" />
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="135dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="16dp"
+            android:background="#FFFFFF"
+            android:text="Suç saati"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/sc8" />
+
+        <Button
+            android:id="@+id/button98"
+            android:layout_width="181dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Notlar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button46"
+            android:layout_width="181dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="216dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Geri dön"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button41"
+            android:layout_width="181dp"
+            android:layout_height="68dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Suçla !"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView60" />
+
+        <Button
+            android:id="@+id/button153"
+            android:layout_width="181dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="İpuçları"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ScrollView
+            android:id="@+id/sc9"
+            android:layout_width="140dp"
+            android:layout_height="215dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.28"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.503">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button162"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Av Bıçağı" />
+
+                <Button
+                    android:id="@+id/button163"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Av Tüfeği" />
+
+                <Button
+                    android:id="@+id/button164"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Makinalı Tüfek" />
+
+                <Button
+                    android:id="@+id/button165"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Keskin Nişancı Tüfeği" />
+
+                <Button
+                    android:id="@+id/button166"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Kasap Bıçağı" />
+
+                <Button
+                    android:id="@+id/button167"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Bilgisayar Kasası" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <ScrollView
+            android:id="@+id/sc7"
+            android:layout_width="140dp"
+            android:layout_height="215dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.503">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button155"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Ölünün Karısı" />
+
+                <Button
+                    android:id="@+id/button156"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Villa Güvenliği" />
+
+                <Button
+                    android:id="@+id/button157"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Temizlik Görevlisi" />
+
+                <Button
+                    android:id="@+id/button158"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Ölünün Kardeşi" />
+
+                <Button
+                    android:id="@+id/button159"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Ölünün Metresi" />
+
+                <Button
+                    android:id="@+id/button160"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Ölünün Komşusu" />
+
+                <Button
+                    android:id="@+id/button161"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Metresin Erkek Kardeşi" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <ScrollView
+            android:id="@+id/sc8"
+            android:layout_width="140dp"
+            android:layout_height="215dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.578"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.503">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button168"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="00.00" />
+
+                <Button
+                    android:id="@+id/button169"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="06.00" />
+
+                <Button
+                    android:id="@+id/button170"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="12.00" />
+
+                <Button
+                    android:id="@+id/button171"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="21.00" />
+
+                <Button
+                    android:id="@+id/button182"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="23.00" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

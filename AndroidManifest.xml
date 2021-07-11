@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yusa.ozelmufettis">
+
+    <application
+        android:icon="@drawable/dedective"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/dedective"
+        android:screenOrientation="landscape"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2082301798539058~5727540997" />
+        <activity android:name=".BlameInfo"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".AboutGame"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AntEpOneQuestioning"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AntEpOneNotes"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AntEpOneInvestigate"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AntEpOneHints"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AntEpOneBlame"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AntEpOne"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AnkEpTwoQuestioning"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AnkEpTwoNotes"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AnkEpTwoInvestigate"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AnkEpTwoHints"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AnkEpTwoBlame"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AnkEpTwo"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AnkEpOneQuestioning"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AnkEpOneNotes"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AnkEpOneInvestigate"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AnkEpOneHints"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AnkEpOneBlame"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AnkEpOne"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpFiveQuestioning"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpFiveNotes"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpFiveInvestigate"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpFiveHints"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpFiveBlame"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpFive"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpFourQuestioning"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpFourNotes"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpFourInvestigate"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpFourHints"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpFourBlame"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpFour"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpThreeQuestioning"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpThreeNotes"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpThreeInvestigate"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpThreeHints"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpThreeBlame"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpThree"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpTwoQuestioning"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpTwoNotes"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpTwoInvestigate"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpTwoHints"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpTwoBlame"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpTwo"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpOneInvestigate"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpOneBlame"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpOneQuestioning"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpOneNotes"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpOneHints"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IstEpOne"
+            android:screenOrientation="landscape" />
+
+        <service
+            android:name=".MusicService"
+            android:enabled="true" />
+
+        <activity
+            android:name=".Antalya"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Ankara"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Istanbul"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Settings"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MapOfCases"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

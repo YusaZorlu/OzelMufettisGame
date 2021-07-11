@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IstEpOneBlame">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/sunset_background" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="135dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:text="Suçlu"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="168dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="4dp"
+        android:background="#FFFFFF"
+        android:text="Suçlu suç silahı ve saatini seç"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/sc7"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="135dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:text="Suç silahı"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/sc9" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="135dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:text="Suç saati"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/sc8" />
+
+    <Button
+        android:id="@+id/button98"
+        android:layout_width="181dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/blue_button"
+        android:text="Notlar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button46"
+        android:layout_width="181dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:background="@drawable/blue_button"
+        android:text="Geri dön"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button41"
+        android:layout_width="181dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/blue_button"
+        android:text="Suçla !"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView65" />
+
+    <Button
+        android:id="@+id/button153"
+        android:layout_width="181dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:background="@drawable/blue_button"
+        android:text="İpuçları"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="99dp"
+        android:layout_height="85dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.403"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/hint_button" />
+
+    <ScrollView
+        android:id="@+id/sc9"
+        android:layout_width="140dp"
+        android:layout_height="215dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.28"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.503">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button172"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Bıçak" />
+
+            <Button
+                android:id="@+id/button173"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Makinalı Tüfek" />
+
+            <Button
+                android:id="@+id/button174"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Boğazlayarak/Kolla" />
+
+            <Button
+                android:id="@+id/button189"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Tabanca" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/sc7"
+        android:layout_width="140dp"
+        android:layout_height="215dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.503">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button175"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Ölünün Arkadaşı" />
+
+            <Button
+                android:id="@+id/button176"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Ölünün Sevgilisi" />
+
+            <Button
+                android:id="@+id/button177"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Ölünün Kuzeni" />
+
+            <Button
+                android:id="@+id/button178"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Ölünün Sevgilisinin Eskisi" />
+
+            <Button
+                android:id="@+id/button179"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Ölünün Ev Sahibi" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/sc8"
+        android:layout_width="140dp"
+        android:layout_height="215dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.503">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button180"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="9.00" />
+
+            <Button
+                android:id="@+id/button181"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="12.00" />
+
+            <Button
+                android:id="@+id/button186"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="18.00" />
+
+            <Button
+                android:id="@+id/button187"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="20.00" />
+
+            <Button
+                android:id="@+id/button188"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="22.00" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
